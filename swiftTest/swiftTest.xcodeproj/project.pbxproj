@@ -62,6 +62,8 @@
 		B21C60851F8362BE004CF046 /* swiftTest */ = {
 			isa = PBXGroup;
 			children = (
+				B21C60A01F836875004CF046 /* aaViewController.swift */,
+				B21C60A11F836875004CF046 /* aaViewController.xib */,
 				B21C60981F8363F9004CF046 /* FQHomeController.swift */,
 				B21C60991F8363F9004CF046 /* FQHomeController.xib */,
 				B21C60861F8362BE004CF046 /* AppDelegate.swift */,
@@ -70,8 +72,6 @@
 				B21C608D1F8362BE004CF046 /* Assets.xcassets */,
 				B21C608F1F8362BE004CF046 /* LaunchScreen.storyboard */,
 				B21C60921F8362BE004CF046 /* Info.plist */,
-				B21C60A01F836875004CF046 /* aaViewController.swift */,
-				B21C60A11F836875004CF046 /* aaViewController.xib */,
 			);
 			path = swiftTest;
 			sourceTree = "<group>";
