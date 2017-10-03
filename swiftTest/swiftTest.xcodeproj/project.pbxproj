@@ -12,6 +12,8 @@
 		B21C608C1F8362BE004CF046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B21C608A1F8362BE004CF046 /* Main.storyboard */; };
 		B21C608E1F8362BE004CF046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B21C608D1F8362BE004CF046 /* Assets.xcassets */; };
 		B21C60911F8362BE004CF046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B21C608F1F8362BE004CF046 /* LaunchScreen.storyboard */; };
+		B21C609A1F8363F9004CF046 /* FQHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21C60981F8363F9004CF046 /* FQHomeController.swift */; };
+		B21C609B1F8363F9004CF046 /* FQHomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B21C60991F8363F9004CF046 /* FQHomeController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B21C608D1F8362BE004CF046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B21C60901F8362BE004CF046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B21C60921F8362BE004CF046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B21C60981F8363F9004CF046 /* FQHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FQHomeController.swift; sourceTree = "<group>"; };
+		B21C60991F8363F9004CF046 /* FQHomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FQHomeController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		B21C60851F8362BE004CF046 /* swiftTest */ = {
 			isa = PBXGroup;
 			children = (
+				B21C60981F8363F9004CF046 /* FQHomeController.swift */,
+				B21C60991F8363F9004CF046 /* FQHomeController.xib */,
 				B21C60861F8362BE004CF046 /* AppDelegate.swift */,
 				B21C60881F8362BE004CF046 /* ViewController.swift */,
 				B21C608A1F8362BE004CF046 /* Main.storyboard */,
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B21C60911F8362BE004CF046 /* LaunchScreen.storyboard in Resources */,
+				B21C609B1F8363F9004CF046 /* FQHomeController.xib in Resources */,
 				B21C608E1F8362BE004CF046 /* Assets.xcassets in Resources */,
 				B21C608C1F8362BE004CF046 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B21C60891F8362BE004CF046 /* ViewController.swift in Sources */,
+				B21C609A1F8363F9004CF046 /* FQHomeController.swift in Sources */,
 				B21C60871F8362BE004CF046 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
